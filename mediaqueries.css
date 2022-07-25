@@ -1,5 +1,5 @@
 @media (max-width: 600px) {
-    .navbar {
+    .navbarr {
         flex-direction: row;
         align-items: center;
         flex-wrap: wrap;
