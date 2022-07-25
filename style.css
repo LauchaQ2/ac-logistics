@@ -24,8 +24,9 @@ a {
     width: 280px;
     justify-content: start;
 }
-.logo-cont-trans{
-    padding: 0!important;
+
+.logo-cont-trans {
+    padding: 0 !important;
 }
 
 .logo {
@@ -33,16 +34,19 @@ a {
     height: 90px;
     transition: ease-in-out 0.5s;
 }
-.brand{
+
+.brand {
     width: 80px;
     transition: ease-in-out 0.5s;
 }
-.brand-trans{
+
+.brand-trans {
     width: 50px;
 }
+
 .logo-trans {
-    width: 50px!important;
-    height: 50px!important;
+    width: 50px !important;
+    height: 50px !important;
 }
 
 
@@ -126,10 +130,12 @@ a {
     padding-bottom: 0.5rem;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
+    
 }
 
 .navbar-links li:hover {
-border-bottom: 1px solid black;}
+    border-bottom: 1px solid black;
+}
 
 /* ANIMATION */
 .menu-btn.open .menu-btn__burger {
@@ -145,7 +151,8 @@ border-bottom: 1px solid black;}
 .menu-btn.open .menu-btn__burger::after {
     transform: rotate(-45deg) translate(35px, 35px);
 }
-.banner{
+
+.banner-img {
     background-image: url('./assets/banner1.jpg');
     width: 100%;
     height: 750px;
@@ -155,20 +162,54 @@ border-bottom: 1px solid black;}
     justify-content: center;
     align-items: center;
 }
-.banner:before {
-	content:'';
-	position: absolute;
-        top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(0,0,0,0.6);
-    height: 750px;
+
+.banner-img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 850px;
 }
-.title-banner{
+
+.title-banner {
     font-size: 60px;
     color: white;
     z-index: 1;
     width: 70%;
     text-align: center;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: #000000 3px 3px 0px;
+}
+
+.services {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(56, 56, 56, 1) 49%, rgba(96, 96, 96, 1) 89%, rgba(113, 113, 113, 1) 91%, rgba(133, 133, 133, 1) 93%, rgba(145, 145, 145, 1) 94%, rgba(184, 184, 184, 1) 96%, rgba(213, 213, 213, 1) 98%, rgba(241, 241, 241, 1) 100%);
+}
+
+.item-service {
+    width: 60px;
+}
+
+.title-service {
+    font-weight: 600;
+    color: #fff;
+    text-shadow: #000000 3px 3px 0px;
+}
+
+.item-description {
+    font-size: 16px;
+    color: white;
+    font-weight: 550;
+    text-shadow: #000000 1px 1px 0;
+}
+
+.padding {
+    padding: 50px;
 }
