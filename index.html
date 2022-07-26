@@ -107,14 +107,14 @@
             <div class="row mt-4">
                 <div class="col">
                     <div class="container-form">
-                        <form class="form">
-                            <input placeholder="NOMBRE" type="text">
-                            <input placeholder="APELLIDO" type="text">
-                            <input placeholder="EMAIL" type="text">
-                            <input placeholder="TELÉFONO" type="text">
-                            <input placeholder="EMPRESA" type="text">
-                            <textarea class="message" placeholder="MENSAJE" type="text"></textarea>
-                            <button class="btn btn-success">Enviar consulta</button>
+                        <form id="form" class="form">
+                            <input placeholder="NOMBRE" required onkeyup="lettersOnly(this)" name="nombre" type="text">
+                            <input placeholder="APELLIDO" required onkeyup="lettersOnly(this)" name="apellido" type="text">
+                            <input placeholder="EMAIL" required name="email" type="email">
+                            <input placeholder="TELÉFONO" required onkeyup="numbersOnly(this)" name="telefono" type="tel">
+                            <input placeholder="EMPRESA" required onkeyup="lettersOnly(this)" name="empresa" type="text">
+                            <textarea class="message" required name="mensaje" placeholder="MENSAJE" type="text"></textarea>
+                            <button id="button" class="btn btn-success">Enviar consulta</button>
                         </form>
                     </div>
                 </div>
@@ -135,6 +135,11 @@
     <footer class="center">
         Powered by Lautaro Quevedo
     </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        emailjs.init('2ViwVK4biW1Y_M_3J')
+    </script>
     <script src="script.js" type="text/javascript"></script>
     <script src="banner.js" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
