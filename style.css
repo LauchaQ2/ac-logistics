@@ -176,6 +176,7 @@ a {
 }
 
 .title-banner {
+    margin-top: 50px;
     font-size: 60px;
     color: white;
     z-index: 1;

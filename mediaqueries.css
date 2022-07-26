@@ -58,4 +58,53 @@
     .brand-trans {
         width: 60px;
     }
+    .banner-img{
+        height: 500px;
+        background-size: cover;
+    }
+    .banner-img:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        height: 500px;
+    }
+    .title-banner{
+        font-size: 30px;
+    }
+    .map-logistic{
+        width: 300px;
+    }
+    .title-service{
+        text-align: center;
+    }
+    .items-cont{
+        margin-top: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .item-service{
+        width: 40px;
+    }
+    .text-center{
+        width: 150px;
+    }
+    .item-gallery{
+        width: 300px;
+        height: 250px;
+    }
+    .aboutus-description{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .firma{
+        width: 300px;
+    }
+    .firma-box{
+        align-items: center;
+        margin-bottom: 15px;
+    }
 }
