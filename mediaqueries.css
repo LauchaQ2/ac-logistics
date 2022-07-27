@@ -3,6 +3,8 @@
         flex-direction: row;
         align-items: center;
         flex-wrap: wrap;
+        padding: 0;
+        justify-content: space-between;
     }
 
     .menu-btn {
@@ -106,5 +108,56 @@
     .firma-box{
         align-items: center;
         margin-bottom: 15px;
+    }
+    .aboutus-description{
+        font-size: 22px;
+    }
+    .row-services{
+        justify-content: center;
+    }
+    .services{
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+    .box-services{
+        padding-top: 10px;
+        width: 90%!important;
+    }
+    .padding{
+        padding: 0;
+    }
+    .map{
+        height: 400px!important;
+    }
+    #nosotros, #contacto, #ubicacion{
+        scroll-margin-top: 70px;
+    }
+    .menu-btn__burger {
+        width: 35px;
+        height: 3px;
+        background: #000;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+        transition: all .5s ease-in-out;
+    }
+    
+    .menu-btn__burger::before,
+    .menu-btn__burger::after {
+        content: '';
+        position: absolute;
+        width: 35px;
+        height: 3px;
+        background: #000;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+        transition: all .5s ease-in-out;
+    }
+    
+    .menu-btn__burger::before {
+        transform: translateY(-12px);
+    }
+    
+    .menu-btn__burger::after {
+        transform: translateY(12px);
     }
 }
