@@ -52,18 +52,20 @@
         height: 40px !important;
     }
 
-    .brand {
-        width: 80px;
+    .brand{
+        width: 60px;
         transition: ease-in-out 0.5s;
     }
 
     .brand-trans {
-        width: 60px;
+        width: 20px;
     }
-    .banner-img{
+
+    .banner-img {
         height: 500px;
         background-size: cover;
     }
+
     .banner-img:before {
         content: '';
         position: absolute;
@@ -74,64 +76,85 @@
         background-color: rgba(0, 0, 0, 0.6);
         height: 500px;
     }
-    .title-banner{
+
+    .title-banner {
         font-size: 30px;
     }
-    .map-logistic{
+
+    .map-logistic {
         width: 300px;
     }
-    .title-service{
+
+    .title-service {
         text-align: center;
     }
-    .items-cont{
+
+    .items-cont {
         margin-top: 10px;
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .item-service{
+
+    .item-service {
         width: 40px;
     }
-    .text-center{
+
+    .text-center {
         width: 150px;
     }
-    .item-gallery{
+
+    .item-gallery {
         width: 300px;
         height: 250px;
     }
-    .aboutus-description{
+
+    .aboutus-description {
         padding-right: 20px;
         padding-left: 20px;
     }
-    .firma{
+
+    .firma {
         width: 300px;
     }
-    .firma-box{
+
+    .firma-box {
         align-items: center;
         margin-bottom: 15px;
-    }
-    .aboutus-description{
-        font-size: 22px;
-    }
-    .row-services{
         justify-content: center;
     }
-    .services{
+
+    .aboutus-description {
+        font-size: 22px;
+    }
+
+    .row-services {
+        justify-content: center;
+    }
+
+    .services {
         padding-bottom: 20px;
         margin-bottom: 30px;
     }
-    .box-services{
+
+    .box-services {
         padding-top: 10px;
-        width: 90%!important;
+        width: 90% !important;
     }
-    .padding{
+
+    .padding {
         padding: 0;
     }
-    .map{
-        height: 400px!important;
+
+    .map {
+        height: 400px !important;
     }
-    #nosotros, #contacto, #ubicacion{
+
+    #nosotros,
+    #contacto,
+    #ubicacion {
         scroll-margin-top: 70px;
     }
+
     .menu-btn__burger {
         width: 35px;
         height: 3px;
@@ -140,7 +163,7 @@
         box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
         transition: all .5s ease-in-out;
     }
-    
+
     .menu-btn__burger::before,
     .menu-btn__burger::after {
         content: '';
@@ -152,12 +175,22 @@
         box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
         transition: all .5s ease-in-out;
     }
-    
+
     .menu-btn__burger::before {
         transform: translateY(-12px);
     }
-    
+
     .menu-btn__burger::after {
         transform: translateY(12px);
+    }
+
+    .img-services {
+        margin-bottom: 10px;
+    }
+    .cont-firm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
     }
 }

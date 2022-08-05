@@ -37,7 +37,7 @@ a {
 }
 
 .brand {
-    width: 80px;
+    width: 120px;
     transition: ease-in-out 0.5s;
 }
 
@@ -191,11 +191,14 @@ a {
 .services {
     display: flex;
     width: 100%;
-    background: rgb(157, 157, 157);
+    background: rgb(237, 237, 237);
 }
 
 .item-service {
     width: 60px;
+}
+.item-contact {
+    width: 30px;
 }
 
 .title-service {
@@ -230,7 +233,7 @@ a {
     color: rgb(0, 0, 0);
 }
 .box-contact{
-    background-color: rgb(186, 186, 186);
+    background: rgb(237, 237, 237);
 }
 .container-form{
     width: 100%;
@@ -262,7 +265,7 @@ input::placeholder, textarea::placeholder, input:focus, textarea:focus{
 .firma-box{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
 }
 .firma{
     width: 500px;
@@ -300,4 +303,12 @@ footer {
 }
 #logistica,#nosotros, #contacto, #ubicacion{
     scroll-margin-top: 90px;
+}
+.img-services{
+    width: 250px;
+    height: 167px;
+    object-fit: cover;
+}
+hr{
+    border-top: 3px solid!important;
 }

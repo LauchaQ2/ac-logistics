@@ -20,9 +20,17 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
-    document.getElementById("brand-logo").style.width = "50px";
+    if(window.innerWidth<600){
+      document.getElementById("brand-logo").style.width = "60px";
+    }else{
+      document.getElementById("brand-logo").style.width = "80px";
+    }
   } else {
-    document.getElementById("brand-logo").style.width = "80px";
+    if(window.innerWidth<600){
+      document.getElementById("brand-logo").style.width = "100px";
+    }else{
+      document.getElementById("brand-logo").style.width = "120px";
+    }
   }
 }
 
