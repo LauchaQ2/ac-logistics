@@ -1,9 +1,8 @@
 const bannerBackground = [
-    './assets/banner1.jpg',
-    './assets/banner2.jpg',
-    './assets/banner3.jpg',
+    'https://i.ibb.co/Jp6d37D/banner1.jpg',
+    'https://i.ibb.co/QdXGfC1/banner2.jpg',
+    'https://i.ibb.co/dgSRzz1/banner3.jpg',
 ]
-
 const banner = document.getElementById('ban');
 var index = 0;
 
